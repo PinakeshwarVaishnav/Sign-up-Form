@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.image-container {
+    flex: 0 0 30%;
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.form-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.logo-overlay {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.overlay-content {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input-pair {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 48%;
+    flex-direction: column;
+}
+
+button {
+    background-color: #596d48;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 10px;
+    color: white;
+}
